@@ -9,8 +9,6 @@ This is the **frontend** of the Smart Links project, a web application built usi
 * [Getting Started](#getting-started)
 * [Available Scripts](#available-scripts)
 * [Project Structure](#project-structure)
-* [Contributing](#contributing)
-* [License](#license)
 
 ## Features
 

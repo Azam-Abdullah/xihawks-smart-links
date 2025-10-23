@@ -11,8 +11,7 @@ This is the **backend** of the Smart Links project, providing API endpoints for 
 * [Available Scripts](#available-scripts)
 * [Project Structure](#project-structure)
 * [API Endpoints](#api-endpoints)
-* [Contributing](#contributing)
-* [License](#license)
+* [Authentication](#authentication)
 
 ## Features
 
