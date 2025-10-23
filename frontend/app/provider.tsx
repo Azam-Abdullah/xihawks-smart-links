@@ -15,10 +15,15 @@ function HydrateUser({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const userStr = localStorage.getItem("user");
     if (userStr) {
-      const user = JSON.parse(userStr);
-      dispatch({ type: "auth/loginUser/fulfilled", payload: { user } });
+      try {
+        const user = JSON.parse(userStr);
+        dispatch({ type: "auth/loginUser/fulfilled", payload: { user } });
+      } catch (err) {
+        console.error("Failed to parse user from localStorage", err);
+      }
     }
   }, [dispatch]);
+
 
   return <>{children}</>;
 }
